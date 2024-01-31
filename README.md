@@ -11,12 +11,13 @@ This layout is focused on improving readability and navigation.
 - It does not work on table elements as the site uses images to generate its tables.
 - The primary focus was on the homepage. Other pages on the site might not be displayed properly. I may update the stylesheet in the future so that they may work.
 - It does not work on vertical screens(phones or vertical monitors).
+- It only works with the "Grid View with Images" display mode.
 
 
 ## FAQ:
 
 ### What is this?
-> This is a custom stylesheet for [Anime News Network](animenewsnetwork.com). It improves the websites layout and also changes the theme to dark mode.
+> This is a custom stylesheet for [Anime News Network](https://animenewsnetwork.com). It improves the website layout and also changes the theme to dark mode.
 
 ### Why did you make this?
 > I discovered the extension [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) recently and thought I could practice my CSS skills by redesigning [Anime News Network](animenewsnetwork.com) because I use that site quite often. I did not start from scratch. I used [ANN Dark Theme](https://uso.kkx.one/style/163165) by [slickboy](https://userstyles.world/user/slickboy) as the base. 
