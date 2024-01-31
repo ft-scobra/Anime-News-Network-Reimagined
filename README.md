@@ -7,7 +7,8 @@ This layout is focused on improving readability and navigation.
 - The side highlights have been moved to the middle.
 - Several minor changes to fit the theme.
 
-**There are limitations to this stylesheet.**
+
+**There are limitations.**
 - It does not work on table elements as the site uses images to generate its tables.
 - The primary focus was on the homepage. Other pages on the site might not be displayed properly. I may update the stylesheet in the future so that they may work.
 - It does not work on vertical screens(phones or vertical monitors).
