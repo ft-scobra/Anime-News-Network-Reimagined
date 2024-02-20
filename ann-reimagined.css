@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
-@namespace      https://userstyles.world/user/ft-scobra
+@namespace      https://github.com/ft-scobra
 @version        1.0.0
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
-@License        MIT License
 ==/UserStyle== */
+
 @-moz-document domain("animenewsnetwork.com"),
 domain("animenewsnetwork.co.uk") {
     #canvas div {
