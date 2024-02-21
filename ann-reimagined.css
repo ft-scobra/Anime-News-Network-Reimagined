@@ -22,6 +22,15 @@ domain("animenewsnetwork.co.uk") {
         background-image: unset !important;
         background-color: #1c1a2e !important;
     }
+	a {
+		text-decoration: none;
+		transition: ease 0.2s;
+	}
+	a:hover {
+		text-decoration: underline;
+		background-color: #0c1223a1;
+		transition: ease 0.2s;
+	}
 }
 
 @-moz-document domain("animenewsnetwork.com"),
@@ -138,7 +147,7 @@ domain("animenewsnetwork.co.uk") {
         border-color: rgb(88, 203, 255);
     }
     .php-css a:visited {
-        color: rgb(88, 203, 255)!important;
+        color: rgb(88, 203, 255);
     }
     .php-css a:link {
         color: rgb(88, 203, 255);
@@ -182,7 +191,7 @@ domain("animenewsnetwork.co.uk") {
     }
     .php-css .forumzone a:link,
     .php-css .forumzone a:visited {
-        color: rgb(88, 203, 255)!important;
+        color: rgb(88, 203, 255);
     }
     .php-css td.row2,
     .php-css td.row1 {
@@ -243,7 +252,7 @@ domain("animenewsnetwork.co.uk") {
     }
     .ror-css cite.e a:visited,
     .ror-css a.ENCYC:visited {
-        color: rgb(91, 252, 174)!important;
+        color: rgb(91, 252, 174);
     }
     #searchbox {
         background: rgb(16, 16, 16);
@@ -562,9 +571,86 @@ domain("animenewsnetwork.co.uk") {
     #load-more .button:hover{
         background: #20203a;
     }
-    
+	
+/* 	"Subscribe to ANN Newsletter" Color Change */
+	.info{
+		color: #fff;
+		background: #0b0b1a;
+	}
+	.info.box {
+		display: block;
+		border: none;
+		box-shadow: 3px 3px 5px 0px #00000042;
+	}	
+	
     /* Weird Gradient Fix */
     html.grid-mode-not-1 .grid-view .mainfeed-section .herald.box .snippet:before {
         display: none;
     }
+}
+
+@-moz-document url-prefix("https://www.animenewsnetwork.com/encyclopedia/"){
+	
+/* 	"Have you Seen This" */
+	.my-anime-rating, .encyc-interactive{
+		background-color: #0b0b1a !important;
+		border: none !important;
+		box-shadow: 3px 3px 5px 0px #00000042;
+		padding: 20px 10px !important;
+	}
+	.my-anime-rating, .encyc-interactive a{
+		padding: 7px;
+		color: rgb(91, 252, 223) !important;
+		line-height: 1.5rem;
+		transition: ease 0.07s;
+	}
+	.my-anime-rating, .encyc-interactive a:hover{
+		background-color: #2b5c61;
+		transition: ease 0.07s;
+	}
+	
+/* 	Herald Boxes / Sidebar */
+	#sidebar{
+		padding-right: 0;
+		padding: 5px 12px;
+	}
+	#sidebar>div{
+		background-color: #fff0;
+		box-shadow: none;
+		margin-top: 60px;
+	}
+	#sidebar > div > div.herald-boxes{
+		background: #131322;
+	}
+	#sidebar .box{
+		background: #20203a;
+	}
+	#sidebar .options-menu{
+		background: #131322;
+		padding: 2px 12px;
+		min-width: 100%;
+	}
+	#sidebar .options-menu div.icon, .open-preferences div.icon{	
+		background-color: #fff0;
+		font-size: 18px;
+		width: 20px;
+		height: 18px;
+		transition: ease 0.2s;
+	}
+	#sidebar .options-menu div.icon:hover, .open-preferences div.icon:hover{
+		background-color: #08253cbd;
+		transition: ease 0.2s;
+		font-size: 20px;
+		width: 20px;
+		height: 18px;
+	}
+	
+	.herald-boxes {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr) !important;
+		width: 100%;
+		gap: 17px;
+		padding: 5px 12px;
+	}
+	
 }
