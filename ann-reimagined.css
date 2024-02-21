@@ -611,7 +611,6 @@ domain("animenewsnetwork.co.uk") {
 	
 /* 	Herald Boxes / Sidebar */
 	#sidebar{
-		padding-right: 0;
 		padding: 5px 12px;
 	}
 	#sidebar>div{
