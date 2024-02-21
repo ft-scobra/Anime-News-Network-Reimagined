@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.0.0
+@version        1.1.1
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
 ==/UserStyle== */
@@ -528,10 +528,12 @@ domain("animenewsnetwork.co.uk") {
         grid-template-columns: repeat(3, 1fr) !important;
         width: 100%;
     }
+	
+/* 	Highlight Panel */
     #mainfeed #aside {
         background-color: #0b0b1a;
         display: grid !important;
-        grid-template-columns: repeat(6, 1fr) !important;
+        grid-template-columns: auto !important;
         gap: 5px;
         padding: 10px;
         margin-bottom: 20px;
@@ -539,6 +541,14 @@ domain("animenewsnetwork.co.uk") {
         box-shadow: #0b0b1a4d 5px 5px 10px 1px;
         border-radius: 10px 10px 10px 10px;
     }
+	#mainfeed #aside.herald-boxes .box{
+		grid-row: 1;
+	}
+	
+	#mainfeed #aside .more:nth-last-of-type(n){
+		grid-row: 2;
+	}
+	
     #mainfeed #aside .hook {
         font-size: 1rem;
     }
@@ -553,6 +563,7 @@ domain("animenewsnetwork.co.uk") {
         margin: 0;
         padding: 5px;
     }
+	
     
     /*   Load More   */
     #load-more{
@@ -611,7 +622,6 @@ domain("animenewsnetwork.co.uk") {
 	
 /* 	Herald Boxes / Sidebar */
 	#sidebar{
-		padding-right: 0;
 		padding: 5px 12px;
 	}
 	#sidebar>div{
