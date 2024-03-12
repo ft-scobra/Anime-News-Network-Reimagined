@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.3
+@version        1.3.5
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
 @supportURL 	https://github.com/ft-scobra/Anime-News-Network-Reimagined/issues
@@ -111,16 +111,21 @@ domain("animenewsnetwork.co.uk")
 		background: #fff;
 		border-radius: 5px;
 	}
+
 	#marquee .marquee-item .cover-image
 	{
 		animation: marquee 15s ease-in-out infinite alternate;
 	}
+
 	@keyframes marquee
 	{
-		0% {
+		0%
+		{
 			background-position: 0% 0%;
 		}
-		100% {
+
+		100%
+		{
 			background-position: 0% 100%;
 		}
 	}
@@ -874,7 +879,9 @@ url-prefix("https://www.animenewsnetwork.com/review/"),
 url-prefix("https://www.animenewsnetwork.com/this-week-in-games/"),
 url-prefix("https://www.animenewsnetwork.com/interest/"),
 url-prefix("https://www.animenewsnetwork.com/daily-briefs/"),
-url-prefix("https://www.animenewsnetwork.com/news/")
+url-prefix("https://www.animenewsnetwork.com/news/"),
+url-prefix("https://www.animenewsnetwork.com/preview-guide/"),
+url-prefix("https://www.animenewsnetwork.com/feature/")
 {
 
 	/*	"Have you Seen This" */
@@ -972,14 +979,15 @@ url-prefix("https://www.animenewsnetwork.com/news/")
 
 
 	/* Ad Nag */
-	#maincontent > div:last-child
+	#maincontent > div:not(#content-zone, #page-title)
 	{
 		background: #131324d9 !important;
 	}
 
 	#maincontent > div:last-child .adblock_nag
 	{
-		background: #1c1c33 !important;
+		top: 20%;
+		background: #1c1c33;
 		border: solid 2px #0e0e1a;
 		border-radius: 10px;
 		box-shadow: #00000073 3px 3px 10px 3px;
