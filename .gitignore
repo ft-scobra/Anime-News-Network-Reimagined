@@ -1,0 +1,4 @@
+
+# Ignore Photoshop stuff and images
+*.psd
+Images/
