@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.3.5
+@version        1.3.6
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
 @supportURL 	https://github.com/ft-scobra/Anime-News-Network-Reimagined/issues
@@ -877,11 +877,13 @@ domain("animenewsnetwork.co.uk")
 @-moz-document url-prefix("https://www.animenewsnetwork.com/encyclopedia/"),
 url-prefix("https://www.animenewsnetwork.com/review/"),
 url-prefix("https://www.animenewsnetwork.com/this-week-in-games/"),
+url-prefix("https://www.animenewsnetwork.com/this-week-in-anime/"),
 url-prefix("https://www.animenewsnetwork.com/interest/"),
 url-prefix("https://www.animenewsnetwork.com/daily-briefs/"),
 url-prefix("https://www.animenewsnetwork.com/news/"),
 url-prefix("https://www.animenewsnetwork.com/preview-guide/"),
-url-prefix("https://www.animenewsnetwork.com/feature/")
+url-prefix("https://www.animenewsnetwork.com/feature/"),
+url-prefix("https://www.animenewsnetwork.com/aftershow")
 {
 
 	/*	"Have you Seen This" */
@@ -960,7 +962,7 @@ url-prefix("https://www.animenewsnetwork.com/feature/")
 		height: 18px;
 	}
 
-	.herald-boxes
+	#sidebar .herald-boxes
 	{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr) !important;
