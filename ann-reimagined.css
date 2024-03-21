@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.3.6
+@version        1.3.7
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
 @supportURL 	https://github.com/ft-scobra/Anime-News-Network-Reimagined/issues
@@ -883,7 +883,8 @@ url-prefix("https://www.animenewsnetwork.com/daily-briefs/"),
 url-prefix("https://www.animenewsnetwork.com/news/"),
 url-prefix("https://www.animenewsnetwork.com/preview-guide/"),
 url-prefix("https://www.animenewsnetwork.com/feature/"),
-url-prefix("https://www.animenewsnetwork.com/aftershow")
+url-prefix("https://www.animenewsnetwork.com/aftershow"),
+url-prefix("https://www.animenewsnetwork.com/weekly-ranking/")
 {
 
 	/*	"Have you Seen This" */
