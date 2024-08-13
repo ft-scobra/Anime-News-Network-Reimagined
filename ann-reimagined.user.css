@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.4.5
+@version        1.4.6
 @description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
 @author         Scøbra
 @supportURL 	https://github.com/ft-scobra/Anime-News-Network-Reimagined/issues
@@ -547,7 +547,7 @@ domain("animenewsnetwork.co.uk")
 		opacity: 0;
 	}
 
-	#header > div.left.half > div > div.actionable.logo
+	#header .actionable.logo
 	{
 		background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Anime_News_Network_logo.svg/512px-Anime_News_Network_logo.svg.png)no-repeat;
 		background-size: 100%;
@@ -569,6 +569,7 @@ domain("animenewsnetwork.co.uk")
 		min-width: 100% !important;
 		position: fixed;
 		z-index: 200;
+        top: 55px;
 		left: 0;
 		padding: 10px;
 		background: #20203a;
@@ -714,7 +715,8 @@ domain("animenewsnetwork.co.uk")
 
 	form.search input.rounded-textbox
 	{
-		background: #20203a
+		background: #20203a;
+        color: white;
 	}
 
 	#searchbox form.search button
