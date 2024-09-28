@@ -1,9 +1,10 @@
 /* ==UserStyle==
 @name           Anime News Network - Reimagined
 @namespace      https://github.com/ft-scobra
-@version        1.4.6
-@description    A more modern layout for Anime News Network. Its main goal is to make readability easier.
-@author         Scøbra
+@version        1.5.0
+@description    A more modern layout for Anime News Network.
+@author         Scobra <stansmail02@gmail.com>
+@homepageURL    https://github.com/ft-scobra/Anime-News-Network-Reimagined
 @supportURL 	https://github.com/ft-scobra/Anime-News-Network-Reimagined/issues
 @license        MIT
 ==/UserStyle== */
@@ -82,7 +83,7 @@ domain("animenewsnetwork.co.uk")
 
 	.ror-css a:link
 	{
-		color: rgb(163, 194, 255);
+		color: rgb(163, 194, 255) !important;
 	}
 
 	nav#mega
